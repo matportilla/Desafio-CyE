@@ -13,6 +13,7 @@
 .RRSS {
   margin-bottom: 2rem;
 }
+
 .error {
   margin: 1rem;
   padding: 1rem;
@@ -21,6 +22,7 @@
   border-radius: 15px;
 
 }
+
 .error2 {
   margin: 1rem;
   padding: 1rem;
@@ -29,6 +31,7 @@
   border-radius: 15px;
 
 }
+
 .tarjetaForm {
   background-color: rgb(242, 242, 242);
   padding: 2rem;
@@ -36,19 +39,24 @@
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
 
 }
+
 .fa-brands {
   margin: 1rem;
   /* color: #213547; */
 }
+
 .fa-facebook {
   color: #3b5998;
 }
+
 .fa-github {
   color: rgb(17, 171, 145);
 }
+
 .fa-linkedin {
   color: #0e76a8;
 }
+
 .fa-brands:hover {
   cursor: pointer;
   transform: scale(1.25);

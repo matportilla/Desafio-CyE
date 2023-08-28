@@ -4,8 +4,8 @@ const SocialButton = (props) => {
   return (
     <div className='RRSS'>
       {props.icons.map((icon, index) => (
-      <i key={index} className={`fa-brands fa-${icon} fa-2xl` }></i>
-   
+        <i key={index} className={`fa-brands fa-${icon} fa-2xl`}></i>
+
       ))}
     </div>
   )
