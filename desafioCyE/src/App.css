@@ -5,38 +5,52 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.Titulo {
+  margin-bottom: 2rem;
+  color: #213547;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.RRSS {
+  margin-bottom: 2rem;
 }
+.error {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #213547;
+  color: white;
+  border-radius: 15px;
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
 }
+.error2 {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #508ec5;
+  color: white;
+  border-radius: 15px;
 
-.card {
-  padding: 2em;
 }
+.tarjetaForm {
+  background-color: rgb(242, 242, 242);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
 
-.read-the-docs {
-  color: #888;
+}
+.fa-brands {
+  margin: 1rem;
+  /* color: #213547; */
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-github {
+  color: rgb(17, 171, 145);
+}
+.fa-linkedin {
+  color: #0e76a8;
+}
+.fa-brands:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition: ease 1s;
 }
